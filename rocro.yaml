@@ -1,0 +1,8 @@
+inspecode:
+  tools:
+  fossid:
+    - machine:
+        cpu: 2.5
+      ignore:
+        - "rocro.yml"
+  misspell: default

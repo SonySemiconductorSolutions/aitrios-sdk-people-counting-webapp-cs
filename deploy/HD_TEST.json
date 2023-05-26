@@ -1,0 +1,25 @@
+{
+  "commands": [
+    {
+      "command_name": "StartUploadInferenceData",
+      "parameters": {
+        "Mode": 2,
+        "UploadInterval": 30,
+        "NumberOfInferencePerMessage": 1,
+        "PPLParameter": {
+            "header" :
+            {
+                "id" : "00",
+                "version" : "01.00.00"
+            },
+            "dnn_output_detections" : 50,
+            "max_detections" : 10,
+            "threshold" : 0.15,
+            "input_width" : 300,
+            "input_height" : 300
+        },
+        "ModelId": "HD_TEST"
+      }
+    }
+  ]
+}
