@@ -12,11 +12,11 @@
                 "id" : "00",
                 "version" : "01.00.00"
             },
-            "dnn_output_detections" : 50,
+            "dnn_output_detections" : 64,
             "max_detections" : 10,
             "threshold" : 0.15,
-            "input_width" : 300,
-            "input_height" : 300
+            "input_width" : 320,
+            "input_height" : 320
         },
         "ModelId": "HD_TEST"
       }
