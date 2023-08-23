@@ -14,7 +14,7 @@ This is a sample of "**Vision and Sensing Application SDK**" and "**Cloud SDK**"
 - [Setup Guide](#setup-guide)
   - [1. Set up your device](#1-set-up-your-device)
   - [2. Set up and deploy AI model](#2-set-up-and-deploy-ai-model)
-  - [3. Set up and deploy "**Vision and Sensing Application**"](#3-set-up-and-deploy-Vision-and-Sensing-Application)
+  - [3. Set up and deploy "**Post Vision App**"](#3-set-up-and-deploy-post-vision-app)
   - [4. Deploy Azure resources](#4-deploy-azure-resources)
   - [5. Set up and deploy Command Parameter File](#5-set-up-and-deploy-command-parameter-file)
 - [Tutorials](#tutorials)
@@ -24,6 +24,7 @@ This is a sample of "**Vision and Sensing Application SDK**" and "**Cloud SDK**"
 - [Trademark](#trademark)
 - [Versioning](#versioning)
 - [Branch](#branch)
+- [Security](#security)
 
 ## Overview
 
@@ -45,39 +46,39 @@ Here are the setup procedures for using this software.
 
 Configure the edge AI device you purchased.
 
-See the ["**Device Setup Guide**"](https://developer.aitrios.sony-semicon.com/file/download/device-setup) for details on the following procedures.
+See the "[Device Setup Guide](https://developer.aitrios.sony-semicon.com/file/download/device-setup)" for details on the following procedures.
 
-- Obtaining device certificates 
-- Register the edge AI device 
-- Connecting the edge AI device to "**Console**" 
-- Updating the edge AI device firmware 
+- Obtaining device certificates
+- Register the edge AI device
+- Connecting the edge AI device to "**Console**"
+- Updating the edge AI device firmware
 - Installing the edge AI device
 
 ### 2. Set up and deploy AI model
 
 Set up an AI model to use for people counting and deploy it to edge AI device.
 
-See the ["**Console User Manual**"](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual) for details on the following procedures.
+See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual)" for details on the following procedures.
 
 - Create model
 - Train model
 
-### 3. Set up and deploy "**Vision and Sensing Application**"
+### 3. Set up and deploy "**Post Vision App**"
 
-Deploy a preset "**Vision and Sensing Application**" for object detection to edge AI device.
+Deploy a preset "**Post Vision App**" for object detection to edge AI device.
 
 See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual)" for details on procedures.
 
 ### 4. Deploy Azure resources
 
-Use the Azure Portal and an ARM template to deploy your Azure resources. </br> 
+Use the Azure Portal and an ARM template to deploy your Azure resources. </br>
 You can also set up a connection with the "**Console**" and configure applications at the same time.
 
-See the ["**README**"](./deploy/README.md) for details on procedures.
+See the "[README](./deploy/README.md)" for details on procedures.
 
 ### 5. Set up and deploy Command Parameter File
 
-Select the command parameter file, **`./deploy/HD_TEST.json`**, from the cloned WebApp repository and deploy it to the "**Console**". 
+Select the command parameter file, **`./deploy/HD_TEST.json`**, from the cloned WebApp repository and deploy it to the "**Console**".
 
 See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual)" for details on the following procedures.
 
@@ -87,7 +88,7 @@ See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/file/d
 
 Use the following tutorial to learn how to use "**PeopleCounting**" deployed to Azure.
 
-See the ["**README**"](./PeopleCountingApp/README.md) for an overview of the application and detailed procedures on how to operate it.
+See the "[README](./PeopleCountingApp/README.md)" for an overview of the application and detailed procedures on how to operate it.
 
 ## Restrictions
 
@@ -103,7 +104,7 @@ See the ["**README**"](./PeopleCountingApp/README.md) for an overview of the app
 
 ## Trademark
 
-- ["**Read This First**"](https://developer.aitrios.sony-semicon.com/development-guides/documents/manuals/)
+- [Read This First](https://developer.aitrios.sony-semicon.com/development-guides/documents/manuals/)
 
 ## Versioning
 
@@ -114,3 +115,7 @@ This repository aims to adhere to Semantic Versioning 2.0.0.
 See the "**Release Note**" from [**Releases**] for this repository.
 
 Each release is generated in the main branch. Pre-releases are generated in the develop branch. Releases will not be provided by other branches.
+
+## Security
+
+Before using Codespaces, please read the Site Policy of GitHub and understand the usage conditions.

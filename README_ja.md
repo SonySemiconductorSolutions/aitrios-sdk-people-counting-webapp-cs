@@ -14,7 +14,7 @@
 - [セットアップガイド](#セットアップガイド)
   - [1. デバイスのセットアップ](#1-デバイスのセットアップ)
   - [2. AIモデルのセットアップとデプロイ](#2-aiモデルのセットアップとデプロイ)
-  - [3. 「**Vision and Sensing Application**」のセットアップとデプロイ](#3-Vision-and-Sensing-Applicationのセットアップとデプロイ)
+  - [3. 「**Post Vision App**」のセットアップとデプロイ](#3-post-vision-appのセットアップとデプロイ)
   - [4. Azureリソースのデプロイ](#4-azureリソースのデプロイ)
   - [5. Command Parameter ファイルのセットアップとデプロイ](#5-command-parameter-ファイルのセットアップとデプロイ)
 - [チュートリアル](#チュートリアル)
@@ -22,8 +22,9 @@
 - [サポート](#サポート)
 - [参照](#参照)
 - [商標](#商標)
-- [ブランチ](#ブランチ)
 - [バージョニング](#バージョニング)
+- [ブランチ](#ブランチ)
+- [セキュリティ](#セキュリティ)
 
 ## 概要
 
@@ -45,7 +46,7 @@
 
 ご購入頂いたエッジAIデバイスの設定を行って下さい。
 
-下記の手順の詳細を [「**デバイス設定ガイド**」](https://developer.aitrios.sony-semicon.com/file/download/device-setup) にてご確認ください。
+下記の手順の詳細を [デバイス設定ガイド](https://developer.aitrios.sony-semicon.com/file/download/device-setup) にてご確認ください。
 
 - デバイス証明書の取得
 - エッジAIデバイスの登録
@@ -57,23 +58,23 @@
 
 人数カウントに利用するAIモデルを設定し、エッジAIデバイスにデプロイします。
 
-下記の手順の詳細を [「**Consoleユーザーマニュアル**」](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual) にてご確認ください。
+下記の手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual) にてご確認ください。
 
 - Create model
 - Train model
 
-### 3. 「**Vision and Sensing Application**」のセットアップとデプロイ
+### 3. 「**Post Vision App**」のセットアップとデプロイ
 
-プリセットで登録されている物体検知用の「**Vision and Sensing Application**」を、エッジAIデバイスにデプロイします。
+プリセットで登録されている物体検知用の「**Post Vision App**」を、エッジAIデバイスにデプロイします。
 
-手順の詳細を [「**Consoleユーザーマニュアル**」](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual) にてご確認ください。
+手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual) にてご確認ください。
 
 ### 4. Azureリソースのデプロイ
 
 Azure PortalとARMテンプレートを使用して、Azureリソースをデプロイします。</br>
 「**Console**」との接続設定やアプリケーションの設定なども同時に行うことができます。
 
-手順の詳細を [「**README**」](./deploy/README_ja.md) にてご確認ください。
+手順の詳細を [README](./deploy/README_ja.md) にてご確認ください。
 
 ### 5. Command Parameter ファイルのセットアップとデプロイ
 
@@ -87,7 +88,7 @@ CloneしたWebAppのリポジトリから、Command Parameterファイル **`./d
 
 次のチュートリアルを使用して、Azureにデプロイされた「**PeopleCounting**」の利用方法を確認いただけます。
 
-アプリケーションの概要および、操作手順の詳細を [「**README**」](./PeopleCountingApp/README_ja.md) にてご確認ください。
+アプリケーションの概要および、操作手順の詳細を [README](./PeopleCountingApp/README_ja.md) にてご確認ください。
 
 ## 制限事項
 
@@ -103,7 +104,7 @@ CloneしたWebAppのリポジトリから、Command Parameterファイル **`./d
 
 ## 商標
 
-- [「**Read This First**」](https://developer.aitrios.sony-semicon.com/development-guides/documents/manuals/)
+- [Read This First](https://developer.aitrios.sony-semicon.com/development-guides/documents/manuals/)
 
 ## バージョニング
 
@@ -114,3 +115,7 @@ CloneしたWebAppのリポジトリから、Command Parameterファイル **`./d
 このリポジトリのReleaseについては[**Releases**]から"**Release Note**"を参照してください。
 
 各リリースはmainブランチに生成されます。プレリリースはdevelopブランチに生成されます。リリースは他のブランチからは提供されません。
+
+## セキュリティ
+
+CodeSpacesのご利用の前に、Githubのサイトポリシーをお読みいただき、利用条件をご理解の上でご利用ください。
