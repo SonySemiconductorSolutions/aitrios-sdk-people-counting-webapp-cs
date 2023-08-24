@@ -46,7 +46,7 @@ Here are the setup procedures for using this software.
 
 Configure the edge AI device you purchased.
 
-See the "[Device Setup Guide](https://developer.aitrios.sony-semicon.com/file/download/device-setup)" for details on the following procedures.
+See the "[Device Setup Guide](https://developer.aitrios.sony-semicon.com/en/documents/device-setup-guide)" for details on the following procedures.
 
 - Obtaining device certificates
 - Register the edge AI device
@@ -58,7 +58,8 @@ See the "[Device Setup Guide](https://developer.aitrios.sony-semicon.com/file/do
 
 Set up an AI model to use for people counting and deploy it to edge AI device.
 
-See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual)" for details on the following procedures.
+See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/en/documents/console-user-manual
+)" for details on the following procedures.
 
 - Create model
 - Train model
@@ -67,7 +68,8 @@ See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/file/d
 
 Deploy a preset "**Post Vision App**" for object detection to edge AI device.
 
-See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual)" for details on procedures.
+See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/en/documents/console-user-manual
+)" for details on procedures.
 
 ### 4. Deploy Azure resources
 
@@ -80,7 +82,8 @@ See the "[README](./deploy/README.md)" for details on procedures.
 
 Select the command parameter file, **`./deploy/HD_TEST.json`**, from the cloned WebApp repository and deploy it to the "**Console**".
 
-See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual)" for details on the following procedures.
+See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/en/documents/console-user-manual
+)" for details on the following procedures.
 
 - Settings
 

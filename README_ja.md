@@ -46,7 +46,7 @@
 
 ご購入頂いたエッジAIデバイスの設定を行って下さい。
 
-下記の手順の詳細を [デバイス設定ガイド](https://developer.aitrios.sony-semicon.com/file/download/device-setup) にてご確認ください。
+下記の手順の詳細を [デバイス設定ガイド](https://developer.aitrios.sony-semicon.com/documents/device-setup-guide) にてご確認ください。
 
 - デバイス証明書の取得
 - エッジAIデバイスの登録
@@ -58,7 +58,8 @@
 
 人数カウントに利用するAIモデルを設定し、エッジAIデバイスにデプロイします。
 
-下記の手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual) にてご確認ください。
+下記の手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/documents/console-user-manual
+) にてご確認ください。
 
 - Create model
 - Train model
@@ -67,7 +68,8 @@
 
 プリセットで登録されている物体検知用の「**Post Vision App**」を、エッジAIデバイスにデプロイします。
 
-手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual) にてご確認ください。
+手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/documents/console-user-manual
+) にてご確認ください。
 
 ### 4. Azureリソースのデプロイ
 
@@ -80,7 +82,8 @@ Azure PortalとARMテンプレートを使用して、Azureリソースをデプ
 
 CloneしたWebAppのリポジトリから、Command Parameterファイル **`./deploy/HD_TEST.json`** を選択し、「**Console**」へ登録します。
 
-下記の手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/file/download/console-developer-edition-ui-manual) にてご確認ください。
+下記の手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/documents/console-user-manual
+) にてご確認ください。
 
 - Settings
 
