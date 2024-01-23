@@ -103,7 +103,7 @@ CloneしたWebAppのリポジトリから、Command Parameterファイル **`./d
 
 ## 参照
 
-- ["**Developer Site**"](https://developer.aitrios.sony-semicon.com)
+- ["**Developer Site**"](https://developer.aitrios.sony-semicon.com/edge-ai-sensing/)
 
 ## 商標
 
