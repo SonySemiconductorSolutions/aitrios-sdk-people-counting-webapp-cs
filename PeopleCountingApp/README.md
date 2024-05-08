@@ -9,7 +9,7 @@
 - [How to use "**PeopleCounting**"](#how-to-use-peoplecounting)
   - [1. Display Home screen](#1-display-home-screen)
   - [2. Create notification](#2-create-notification)
-  - [3. Perform inference from edge AI devices](#3-perform-inference-from-edge-ai-devices)
+  - [3. Perform inference from Edge Devices](#3-perform-inference-from-edge-devices)
   - [4. Monitor the headcount counting result](#4-monitor-the-headcount-counting-result)
   - [5. Confirm the notification](#5-confirm-the-notification)
 - [Restrictions](#restrictions)
@@ -25,9 +25,9 @@ The following features are implemented as UI for this application:
 
 ### "**PeopleCounting**" configurations
 
-"**PeopleCounting**" deployed on Azure uses "**Console for AITRIOS**" (the "**Console**") API to control edge AI devices.
+"**PeopleCounting**" deployed on Azure uses "**Console for AITRIOS**" (the "**Console**") API to control Edge Devices.
 
-Images and inference results acquired by edge AI devices are uploaded to the "**Console**" and then notified to "**PeopleCounting**".
+Images and inference results acquired by Edge Devices are uploaded to the "**Console**" and then notified to "**PeopleCounting**".
 
 ![Network configurations](Network_diagram.png)
 
@@ -43,7 +43,7 @@ This application consists of the following two screens:
 
   | Name of the screen | Usage |
   | ---- | ---- |
-  | Home screen |  Configure the edge AI device control and notification settings. |
+  | Home screen |  Configure the Edge Device control and notification settings. |
   | Visualization screen | Monitor the headcount status and main information using a dashboard. |
 
 You can switch the contents with the tabs on the left of the screen.
@@ -58,13 +58,13 @@ You can switch the contents with the tabs on the left of the screen.
   
   | Name of the table | Description |
   | ---- | ---- |
-  | [**Device List**] | Displays a list of edge AI devices registered to the "**Console**". You can also start and stop the inference process. |
+  | [**Device List**] | Displays a list of Edge Devices registered to the "**Console**". You can also start and stop the inference process. |
   | [**Notification List**] | Displays a list of created notifications. You can also create, update, or delete them. |
 
 ### 2. Create notification
 
 - Click on the [**+**] button of the [**Notification List**].
-- Select the edge AI device from [**Device**] pull-down menu.
+- Select the Edge Device from [**Device**] pull-down menu.
 - Type the condition (a number for people) to send the notification to [**Threshold**] text box.
 - Select the condition (or more/or less) to send the notification from [**Condition**] pull-down menu.
 - Type the subject of the notification to [**Title**] text box.
@@ -72,9 +72,9 @@ You can switch the contents with the tabs on the left of the screen.
 - Select the media to send notification from [**Method**] pull-down menu.
 - Click the [**+**] button of the created notification.
 
-### 3. Perform inference from edge AI devices
+### 3. Perform inference from Edge Devices
 
-- Select the edge AI device from [**Device List**].
+- Select the Edge Device from [**Device List**].
 - Click the [**▶**] button.
 
   The function of each button is as follows:
@@ -87,9 +87,9 @@ You can switch the contents with the tabs on the left of the screen.
 ### 4. Monitor the headcount counting result
 
 - Click [**Dashboard**] tab of the screen to open the Dashboard screen.
-- Select the edge AI device from [**Select Device**] pull-down menu.
+- Select the Edge Device from [**Select Device**] pull-down menu.
 
-A chart visualizes the number of people counted by the selected devices.
+A chart visualizes the number of people counted by the selected Edge Devices.
 
 ### 5. Confirm the notification
 

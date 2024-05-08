@@ -253,7 +253,7 @@ UpdateIRHubConnector APIのパラメータとなるEvent Hubsの情報を取得�
 ### 3. UpdateIRHubConnector APIを実行する
 
 取得したトークン情報と接続文字列を使ってUpdateIRHubConnector APIを実行します。</br>
-REST APIの詳細については、[デベロッパーエディションREST API](https://developer.aitrios.sony-semicon.com/development-guides/reference/api-references/) を参照してください。</br>
+REST APIの詳細については、[Console REST API Specification](https://developer.aitrios.sony-semicon.com/edge-ai-sensing/documents/console-rest-api-specification/) を参照してください。</br>
 下記の手順は、Postmanを利用した実行例です。
 
 - Postmanで新規のPUTリクエストを作成する

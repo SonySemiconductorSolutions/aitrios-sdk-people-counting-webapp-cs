@@ -253,7 +253,7 @@ Get Event Hubs information that is a parameter of the UpdateIRHubConnector API.
 ### 3. Run UpdateIRHubConnector API
 
 Run the UpdateIRHubConnector API with the gotten token information and connection string. </br> 
-See the [Developer Edition REST API](https://developer.aitrios.sony-semicon.com/development-guides/reference/api-references/) for details on the API.</br> 
+See the [Console REST API Specification](https://developer.aitrios.sony-semicon.com/edge-ai-sensing/documents/console-rest-api-specification/) for details on the API.</br> 
 The following procedure is an example of using Postman.
 
 - Create a new PUT request in Postman
