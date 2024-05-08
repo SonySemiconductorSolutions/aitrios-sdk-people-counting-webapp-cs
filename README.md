@@ -2,19 +2,19 @@
 
 ## About this Software
 
-This is a sample of "**Vision and Sensing Application SDK**" and "**Cloud SDK**". Please note the following when using it：
+This is a sample of "**Edge Application SDK**" and "**Cloud SDK**". Please note the following when using it：
 
 - This sample is released with the assumption it will be used for development.
-- This sample may contain errors or defects that obstruct regular operation of the device.
+- This sample may contain errors or defects that obstruct regular operation of the Edge Device.
 
 ## Content <!-- omit in toc -->
 
 - [Overview](#overview)
 - [Prerequisite](#prerequisite)
 - [Setup Guide](#setup-guide)
-  - [1. Set up your device](#1-set-up-your-device)
+  - [1. Set up your Edge Device](#1-set-up-your-edge-device)
   - [2. Set up and deploy AI model](#2-set-up-and-deploy-ai-model)
-  - [3. Set up and deploy "**Post Vision App**"](#3-set-up-and-deploy-post-vision-app)
+  - [3. Set up and deploy "**Edge Application**"](#3-set-up-and-deploy-edge-application)
   - [4. Deploy Azure resources](#4-deploy-azure-resources)
   - [5. Set up and deploy Command Parameter File](#5-set-up-and-deploy-command-parameter-file)
 - [Tutorials](#tutorials)
@@ -32,44 +32,42 @@ This software provides an environment to build a people counting system using th
 
 ## Prerequisite
 
-The following service and edge AI device are required to run this software:
+The following service and Edge Device are required to run this software:
 
-- Buy Developer Edition Basic Plan
-- Buy edge AI device
+- Buy Console​ Developer Edition​​ Basic Plan
+- Buy Edge Device
 - Buy Azure account and subscription
 
 ## Setup Guide
 
 Here are the setup procedures for using this software.
 
-### 1. Set up your device
+### 1. Set up your Edge Device
 
-Configure the edge AI device you purchased.
+Configure the Edge Device you purchased.
 
-See the "[Device Setup Guide](https://developer.aitrios.sony-semicon.com/en/documents/device-setup-guide)" for details on the following procedures.
+See the "[Device Setup Guide](https://developer.aitrios.sony-semicon.com/en/edge-ai-sensing/documents/device-setup-guide/)" for details on the following procedures.
 
-- Obtaining device certificates
-- Register the edge AI device
-- Connecting the edge AI device to "**Console**"
-- Updating the edge AI device firmware
-- Installing the edge AI device
+- Obtaining Edge Device certificates
+- Register the Edge Device
+- Connecting the Edge Device to "**Console**"
+- Updating the Edge Device firmware
+- Installing the Edge Device
 
 ### 2. Set up and deploy AI model
 
-Set up an AI model to use for people counting and deploy it to edge AI device.
+Set up an AI model to use for people counting and deploy it to Edge Device.
 
-See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/en/documents/console-user-manual
-)" for details on the following procedures.
+See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/en/edge-ai-sensing/documents/console-user-manual/)" for details on the following procedures.
 
 - Create model
 - Train model
 
-### 3. Set up and deploy "**Post Vision App**"
+### 3. Set up and deploy "**Edge Application**"
 
-Deploy a preset "**Post Vision App**" for object detection to edge AI device.
+Deploy a preset "**Edge Application**" for object detection to Edge Device.
 
-See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/en/documents/console-user-manual
-)" for details on procedures.
+See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/en/edge-ai-sensing/documents/console-user-manual/)" for details on procedures.
 
 ### 4. Deploy Azure resources
 
@@ -82,8 +80,7 @@ See the "[README](./deploy/README.md)" for details on procedures.
 
 Select the command parameter file, **`./deploy/HD_TEST.json`**, from the cloned WebApp repository and deploy it to the "**Console**".
 
-See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/en/documents/console-user-manual
-)" for details on the following procedures.
+See the "[Console User Manual](https://developer.aitrios.sony-semicon.com/en/edge-ai-sensing/documents/console-user-manual/)" for details on the following procedures.
 
 - Settings
 
@@ -99,7 +96,7 @@ See the "[README](./PeopleCountingApp/README.md)" for an overview of the applica
 
 ## Get support
 
-- [Contact us](https://developer.aitrios.sony-semicon.com/contact-us/)
+- [Contact us](https://developer.aitrios.sony-semicon.com/en/edge-ai-sensing/contact-us/)
 
 ## See also
 
@@ -107,7 +104,7 @@ See the "[README](./PeopleCountingApp/README.md)" for an overview of the applica
 
 ## Trademark
 
-- [Read This First](https://developer.aitrios.sony-semicon.com/development-guides/documents/manuals/)
+- [Read This First](https://developer.aitrios.sony-semicon.com/en/edge-ai-sensing/documents/read-this-first/)
 
 ## Versioning
 

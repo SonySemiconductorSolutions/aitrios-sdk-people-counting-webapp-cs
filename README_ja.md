@@ -2,19 +2,19 @@
 
 ## このソフトウェアについて
 
-「**Vision and Sensing Application SDK**」 と 「**Cloud SDK**」 のサンプルです。ご利用にあたっては、下記の点に注意してください。
+「**Edge Application SDK**」 と 「**Cloud SDK**」 のサンプルです。ご利用にあたっては、下記の点に注意してください。
 
 - 本サンプルは、開発での使用を前提として公開しております。
-- このサンプルには、デバイスの正常な動作を妨げるエラーまたは欠陥が含まれている可能性があります。
+- このサンプルには、エッジデバイスの正常な動作を妨げるエラーまたは欠陥が含まれている可能性があります。
 
 ## コンテンツ <!-- omit in toc -->
 
 - [概要](#概要)
 - [前提条件](#前提条件)
 - [セットアップガイド](#セットアップガイド)
-  - [1. デバイスのセットアップ](#1-デバイスのセットアップ)
+  - [1. エッジデバイスのセットアップ](#1-エッジデバイスのセットアップ)
   - [2. AIモデルのセットアップとデプロイ](#2-aiモデルのセットアップとデプロイ)
-  - [3. 「**Post Vision App**」のセットアップとデプロイ](#3-post-vision-appのセットアップとデプロイ)
+  - [3. 「**Edge Application**」のセットアップとデプロイ](#3-edge-applicationのセットアップとデプロイ)
   - [4. Azureリソースのデプロイ](#4-azureリソースのデプロイ)
   - [5. Command Parameter ファイルのセットアップとデプロイ](#5-command-parameter-ファイルのセットアップとデプロイ)
 - [チュートリアル](#チュートリアル)
@@ -32,44 +32,42 @@
 
 ## 前提条件
 
-このソフトウェアの実行には、下記のサービスおよびエッジAIデバイスが必要です。
+このソフトウェアの実行には、下記のサービスおよびエッジデバイスが必要です。
 
 - デベロッパーエディションBasicプランのご購入
-- エッジAIデバイスのご購入
+- エッジデバイスのご購入
 - Azureアカウントおよび、サブスクリプションのご購入
 
 ## セットアップガイド
 
 このソフトウェアを利用するためのセットアップ手順について説明します。
 
-### 1. デバイスのセットアップ
+### 1. エッジデバイスのセットアップ
 
-ご購入頂いたエッジAIデバイスの設定を行って下さい。
+ご購入頂いたエッジデバイスの設定を行って下さい。
 
-下記の手順の詳細を [デバイス設定ガイド](https://developer.aitrios.sony-semicon.com/documents/device-setup-guide) にてご確認ください。
+下記の手順の詳細を [デバイス設定ガイド](https://developer.aitrios.sony-semicon.com/edge-ai-sensing/documents/device-setup-guide/) にてご確認ください。
 
-- デバイス証明書の取得
-- エッジAIデバイスの登録
-- 「**Console**」とエッジAIデバイスの接続
-- エッジAIデバイスのファームウェア更新
-- エッジAIデバイスの設置確認
+- エッジデバイス証明書の取得
+- エッジデバイスの登録
+- 「**Console**」とエッジデバイスの接続
+- エッジデバイスのファームウェア更新
+- エッジデバイスの設置確認
 
 ### 2. AIモデルのセットアップとデプロイ
 
-人数カウントに利用するAIモデルを設定し、エッジAIデバイスにデプロイします。
+人数カウントに利用するAIモデルを設定し、エッジデバイスにデプロイします。
 
-下記の手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/documents/console-user-manual
-) にてご確認ください。
+下記の手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/edge-ai-sensing/documents/console-user-manual/) にてご確認ください。
 
 - Create model
 - Train model
 
-### 3. 「**Post Vision App**」のセットアップとデプロイ
+### 3. 「**Edge Application**」のセットアップとデプロイ
 
-プリセットで登録されている物体検知用の「**Post Vision App**」を、エッジAIデバイスにデプロイします。
+プリセットで登録されている物体検知用の「**Edge Application**」を、エッジデバイスにデプロイします。
 
-手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/documents/console-user-manual
-) にてご確認ください。
+手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/edge-ai-sensing/documents/console-user-manual/) にてご確認ください。
 
 ### 4. Azureリソースのデプロイ
 
@@ -82,8 +80,7 @@ Azure PortalとARMテンプレートを使用して、Azureリソースをデプ
 
 CloneしたWebAppのリポジトリから、Command Parameterファイル **`./deploy/HD_TEST.json`** を選択し、「**Console**」へ登録します。
 
-下記の手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/documents/console-user-manual
-) にてご確認ください。
+下記の手順の詳細を [Consoleユーザーマニュアル](https://developer.aitrios.sony-semicon.com/edge-ai-sensing/documents/console-user-manual/) にてご確認ください。
 
 - Settings
 
@@ -99,7 +96,7 @@ CloneしたWebAppのリポジトリから、Command Parameterファイル **`./d
 
 ## サポート
 
-- [Contact us](https://developer.aitrios.sony-semicon.com/contact-us/)
+- [Contact us](https://developer.aitrios.sony-semicon.com/edge-ai-sensing/contact-us/)
 
 ## 参照
 
@@ -107,7 +104,7 @@ CloneしたWebAppのリポジトリから、Command Parameterファイル **`./d
 
 ## 商標
 
-- [Read This First](https://developer.aitrios.sony-semicon.com/development-guides/documents/manuals/)
+- [Read This First](https://developer.aitrios.sony-semicon.com/edge-ai-sensing/documents/read-this-first/)
 
 ## バージョニング
 
