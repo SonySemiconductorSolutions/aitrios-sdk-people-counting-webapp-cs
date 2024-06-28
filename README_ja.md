@@ -34,7 +34,7 @@
 
 このソフトウェアの実行には、下記のサービスおよびエッジデバイスが必要です。
 
-- デベロッパーエディションBasicプランのご購入
+- デベロッパーエディションプランのご購入
 - エッジデバイスのご購入
 - Azureアカウントおよび、サブスクリプションのご購入
 
@@ -96,7 +96,7 @@ CloneしたWebAppのリポジトリから、Command Parameterファイル **`./d
 
 ## サポート
 
-- [Contact us](https://developer.aitrios.sony-semicon.com/edge-ai-sensing/contact-us/)
+- [Contact us](https://support.aitrios.sony-semicon.com/hc/en-us/requests/new)
 
 ## 参照
 
