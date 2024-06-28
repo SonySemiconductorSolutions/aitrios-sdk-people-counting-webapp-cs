@@ -34,7 +34,7 @@ This software provides an environment to build a people counting system using th
 
 The following service and Edge Device are required to run this software:
 
-- Buy Console​ Developer Edition​​ Basic Plan
+- Buy Console​ Developer Edition​​ Plan
 - Buy Edge Device
 - Buy Azure account and subscription
 
@@ -96,7 +96,7 @@ See the "[README](./PeopleCountingApp/README.md)" for an overview of the applica
 
 ## Get support
 
-- [Contact us](https://developer.aitrios.sony-semicon.com/en/edge-ai-sensing/contact-us/)
+- [Contact us](https://support.aitrios.sony-semicon.com/hc/en-us/requests/new)
 
 ## See also
 
